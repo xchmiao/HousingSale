@@ -110,8 +110,7 @@ predict_model<-function(model, X_test, output_filename = 'RF2.csv'){
   write_csv(submission, output_filename)
 }
 
-path = "/Users/xiaochangmiao/Documents/Course/Kaggle/HousingSale"
-setwd(dir = path)
+
 X_train <- read.csv('train_clean.csv')
 X_test <- read.csv('test_clean.csv')
 
