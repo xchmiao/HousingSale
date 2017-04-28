@@ -1,9 +1,6 @@
 library(readr)
 library(dplyr)
 
-path = "/Users/xiaochangmiao/Documents/Course/Kaggle/HousingSale"
-setwd(dir = path)
-
 files = c("lasso_rs.csv", "lasso2.csv")
 data = read.csv("lasso_3.csv")
 data$v0 = log(data$SalePrice)
